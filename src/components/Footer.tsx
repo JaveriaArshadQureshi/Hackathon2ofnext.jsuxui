@@ -6,7 +6,7 @@ const bottom = () => {
   return (
     <div>
         
-    <div className='w-full bg-[#2A254B] max-sm:w-[350px] px-6 pt-0  text-white flex-col justify-center items-center' >
+    <div className='w-full bg-[#2A254B] max-sm:w-[350px] px-6 pt-0   text-white flex-col justify-center items-center' >
         {/* upper section  */}
         <section className='flex justify-around pt-10 max-sm:flex-wrap pb-10 m-0 max-sm:text-start gap-4  border-b border-[#F9F9F9] '>
             <div >

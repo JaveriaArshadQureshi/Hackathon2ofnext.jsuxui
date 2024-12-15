@@ -3,6 +3,7 @@ import Features from "@/components/Features";
 import Hero from "@/components/hero";
 import Features2 from "@/components/Features2";
 import Email from "@/components/Email";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
      <Product/>
      <Features2/>
      <Email/>
+     <Footer/>
     </main>
   );
 }
