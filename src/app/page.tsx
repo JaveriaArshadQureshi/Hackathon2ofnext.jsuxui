@@ -6,7 +6,7 @@ import Email from "@/components/Email";
 
 export default function Home() {
   return (
-    <main className="flex  max-w-auto max-h-screen flex-col max-sm:max-w-sm">
+    <main className="flex  max-h-screen flex-col max-sm:max-w-sm">
      <Hero/>
      <Features/>
      <Product/>
