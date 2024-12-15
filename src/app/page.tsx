@@ -1,6 +1,6 @@
 import Product from "@/components/Product";
 import Features from "@/components/Features";
-import Hero from "@/components/hero";
+import Hero from "@/components/Hero";
 import Features2 from "@/components/Features2";
 import Email from "@/components/Email";
 import Footer from "@/components/Footer";
