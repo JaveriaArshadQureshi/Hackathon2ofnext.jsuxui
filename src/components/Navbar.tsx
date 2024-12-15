@@ -33,7 +33,7 @@ const Navbar = () => {
                   <SheetTitle >Avion</SheetTitle>
                 </SheetHeader>
                 <div className='flex flex-col gap-3 text-start text-[#726E8D] '>
-                <Link href={"#"} className='hover:text-[#212025]'>Plant pots</Link>
+                <Link href={"#plants"} className='hover:text-[#212025]'>Plant pots</Link>
                 <Link href={"#"} className='hover:text-[#212025]'>Ceramics</Link>
                 <Link href={"#"} className='hover:text-[#212025]'>Tables</Link>
                 <Link href={"#"} className='hover:text-[#212025]'>Chairs</Link>

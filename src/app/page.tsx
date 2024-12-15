@@ -1,7 +1,6 @@
 import Product from "@/components/Product";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
-import Image from "next/image";
 import Features2 from "@/components/Features2";
 import Email from "@/components/Email";
 

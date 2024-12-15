@@ -4,7 +4,7 @@ import React from "react";
 const Email = () => {
   return (
     <div>
-      <div className="md:bg-[url('/images/Email.jpg')] bg-center pb-0 m-auto  max-sm:hidden max-sm:h-[218px] bg-no-repeat h-[600px] w-full flex items-center justify-center ]">
+      <div className="md:bg-[url('/images/Email.jpg')] bg-center pb-0  max-sm:hidden max-sm:h-[218px] bg-no-repeat h-[600px] w-full flex items-center justify-center ]">
         <div className="w-[600px] ">
           <h2 className="text-[32px]   pt-20 text-white">
             Join the club and get the benefits
