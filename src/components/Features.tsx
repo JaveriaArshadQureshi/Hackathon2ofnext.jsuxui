@@ -37,7 +37,7 @@ const Features = () => {
           <CreditCard className="h-9 w-9 text-gray-700 mb-2 mt-8" />
           <h4 className="text-lg font-semibold mt-3">Unbeatable prices</h4>
           <p className="text-[15px] text-justify text-gray-600  mt-2">
-          For our materials and quality you won&apost find better prices anywhere
+          For our materials and quality you won&apos;t find better prices anywhere
           </p>
           </div>
            </div>

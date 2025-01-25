@@ -4,7 +4,7 @@ import React from "react";
 const Email = () => {
   return (
     <div>
-      <div className="md:bg-[url('/images/Email.jpg')] bg-center pb-0  max-sm:hidden max-sm:h-[218px] bg-no-repeat h-[600px] w-full flex items-center justify-center ]">
+      <div className="md:bg-[url('/images/Email.jpg')] bg-center pb-0  max-sm:hidden  bg-no-repeat  w-screen flex items-center justify-center ]">
         <div className="w-[600px] ">
           <h2 className="text-[32px]   pt-20 text-white">
             Join the club and get the benefits
@@ -44,7 +44,7 @@ const Email = () => {
         </div>
       </div>
   {/* responsive */}
-      <div className="max-sm:bg-[url('/images/Emailsm.jpg')] text-white text-start py-10 px-5 md:hidden">
+      <div className="max-sm:bg-[url('/images/Emailsm.jpg')] w-screen text-white text-start py-10 px-5 md:hidden">
       <h2 className="text-xl pt-2">
             Join the club and get the benefits
           </h2>

@@ -6,9 +6,9 @@ const bottom = () => {
   return (
     <div>
         
-    <div className='w-full bg-[#2A254B] max-sm:w-[350px] px-6 pt-0   text-white flex-col justify-center items-center' >
+    <div className=' bg-[#2A254B] w-screen px-6 pt-0   text-white flex-col justify-center items-center' >
         {/* upper section  */}
-        <section className='flex justify-around pt-10 max-sm:flex-wrap pb-10 m-0 max-sm:text-start gap-4  border-b border-[#F9F9F9] '>
+        <section className='flex justify-around pt-10 max-sm:grid max-sm:grid-cols-2  pb-10 m-0 max-sm:text-start   border-b border-[#F9F9F9] '>
             <div >
                 <h3 className="text-[18px] max-sm:text-[15px]">Menu</h3>
                 <ul className="text-[14px] max-sm:[12px] pt-2 ">
@@ -31,7 +31,7 @@ const bottom = () => {
                 <li><Link href={"#"}>Crockery</Link></li>
                 </ul>
             </div>
-            <div className="text-start">
+            <div className="text-start max-sm:mt-4">
                 <h3 className="text-[18px]  max-sm:text-[15px]">Our company</h3>
                 <ul className="text-[14px] max-sm:text-[12px]  pt-2 ">
                 <li><Link href={"#"}>About us</Link></li>
@@ -42,22 +42,22 @@ const bottom = () => {
                 </ul>
             </div>
             <div>
-              <h3 className="text-[18px] max-sm:text-[15px]">Join our mailing list</h3>
-              <div className=" pt-6 pb-[100px] max-sm:pb-5">
+              <h3 className="text-[18px] max-sm:text-[15px]  max-sm:mt-4">Join our mailing list</h3>
+              <div className="flex pt-6 pb-[100px] max-sm:pb-5">
             <input
               type="text"
               placeholder="your@email.com"
-              className=" bg-white text-white focus:outline-none bg-opacity-10 relative px-[100px] max-sm:py-3 max-sm:text-sm max-sm:px-2 py-4"
+              className=" bg-white text-white focus:outline-none bg-opacity-10 relative  md:px-[100px] max-sm:py-1 max-sm:text-[10px] max-sm:px-1 py-4"
             />
-            <button className="text-[#2A254B] bg-white py-4 px-5 max-sm:py-3  max-sm:text-sm max-sm:px-2 hover:bg-opacity-80">
+            <button className="text-[#2A254B] bg-white py-4 px-5 max-sm:py-1  max-sm:text-[10px] max-sm:px-1 hover:bg-opacity-80">
               Sign up
             </button>
           </div>
             </div>
         </section>
           {/* lower section  */}
-          <section className='flex p-5  justify-between '>
-          <div className="ml-10 text-sm max-sm:pb-4 "><h3>Copyright 2022 Avion LTD</h3></div>
+          <section className='flex py-5 justify-center items-center  md:justify-between '>
+          <div className=" md:ml-10 text-sm max-sm:pb-4 "><h3>Copyright 2022 Avion LTD</h3></div>
           <div className=' mr-10 flex gap-3 text-2xl max-sm:hidden'>
             <FaLinkedin />
             <FaFacebookSquare />

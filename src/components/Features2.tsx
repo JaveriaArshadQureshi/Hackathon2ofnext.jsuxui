@@ -8,7 +8,7 @@ const Features2 = () => {
             <div className=' w-[500px] pr-0 max-sm:w-[250px]  text-white p-5'>
                 <h2 className='text-3xl  max-sm:text-sm  max-sm:text-left pb-6'>It started with a small idea</h2>
                 <p className='pb-[120px] max-sm:text-[12px] max-sm:pb-9 '>A global brand with local beginnings, our story begain in a small studio in South London in early 2014</p>
-                <button className='bg-[#F9F9F9] bg-opacity-5 px-5 py-3 mb-5 hover:bg-opacity-90 hover:text-[#2A254B] max-sm:px-[100px] max-sm:text-[9px] max-sm:inline-flex max-sm:justify-center '>
+                <button className='bg-[#F9F9F9] bg-opacity-5 px-5 py-3 mb-5 hover:bg-opacity-90 hover:text-[#2A254B] max-sm:px-[100px] max-sm:text-[10px]  max-sm:inline-flex max-sm:justify-center '>
                 View collection
                 </button>
             </div>
